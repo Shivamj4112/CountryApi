@@ -71,7 +71,7 @@ public class All_countryActivity extends AppCompatActivity {
 
 
         //        Adding Images
-        int flags = getIntent().getIntExtra("flgs", 0);
+        int flags = getIntent().getIntExtra("flags", 0);
 
         try {
             Glide.with(All_countryActivity.this).load(datalist.get(flags).getFlags().getPng()).into(flags1);
