@@ -132,7 +132,6 @@ public class All_countryActivity extends AppCompatActivity {
             }
         } catch (Exception e) {
         }
-
         try {
             currencies_name.setText(datalist.get(flags).getCurrencies().getEur().getName());
             currencies_symbol.setText(datalist.get(flags).getCurrencies().getEur().getSymbol());
