@@ -1,41 +1,70 @@
 {
   "project_info": {
-    "project_number": "264704175669",
-    "project_id": "fir-23e26",
-    "storage_bucket": "fir-23e26.appspot.com"
+    "project_number": "951963846839",
+    "project_id": "fooddoor-2e243",
+    "storage_bucket": "fooddoor-2e243.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:264704175669:android:c3fd2a860b7313637bcb7c",
+        "mobilesdk_app_id": "1:951963846839:android:7833aee0504dfa30322532",
         "android_client_info": {
-          "package_name": "com.api.firebase"
+          "package_name": "com.api.countryapi"
         }
       },
       "oauth_client": [
         {
-          "client_id": "264704175669-put1hlkj46oh1no9l9o3uar8k160kj3b.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.api.firebase",
-            "certificate_hash": "55b8f1f4bdfc4215b7c614932add57377764d029"
-          }
-        },
-        {
-          "client_id": "264704175669-1ipnp493mh34t2m6438kdnjsugm13u73.apps.googleusercontent.com",
+          "client_id": "951963846839-rh5pqcriq2vs3e9trh04nngacrnurfip.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCgsCAvGvNEQpf8JyFmPD9xGTagIQfl_ng"
+          "current_key": "AIzaSyC8WsTwmOHiIuMJuyTsw1JmimKE9-QLMo8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "264704175669-1ipnp493mh34t2m6438kdnjsugm13u73.apps.googleusercontent.com",
+              "client_id": "951963846839-rh5pqcriq2vs3e9trh04nngacrnurfip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951963846839:android:645d173cbcc82d38322532",
+        "android_client_info": {
+          "package_name": "com.delivery.fooddoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951963846839-4238p6i8erb2r2dnt3u74pha3v3f4utf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delivery.fooddoor",
+            "certificate_hash": "55b8f1f4bdfc4215b7c614932add57377764d029"
+          }
+        },
+        {
+          "client_id": "951963846839-rh5pqcriq2vs3e9trh04nngacrnurfip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8WsTwmOHiIuMJuyTsw1JmimKE9-QLMo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951963846839-rh5pqcriq2vs3e9trh04nngacrnurfip.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MapActivity">
+    tools:context=".Activity.MapActivity">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="@android:color/holo_blue_dark">
@@ -18,10 +18,18 @@
             android:layout_height="30dp"
             android:src="@drawable/ic_arrow_back"
             app:tint="@color/white"
-            android:layout_gravity="center"
+            android:layout_gravity="center|left"
             android:layout_marginStart="10dp"/>
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map View"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
